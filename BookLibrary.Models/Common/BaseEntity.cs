@@ -2,7 +2,7 @@
 
 namespace BookLibrary.Models.Common
 {
-    public abstract class BaseEntity : IKeyEntity, IAuditEntity
+    public abstract class BaseEntity : IBaseEntity
     {
         public string Id { get; set; }
         public DateTime CreatedDateTime { get; set; }

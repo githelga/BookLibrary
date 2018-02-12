@@ -4,7 +4,7 @@ using BookLibrary.Models.Enums;
 
 namespace BookLibrary.Models
 {
-    public class PersonExtend : Person, ICommuniction, IAddress
+    public abstract class PersonExtend : Person, ICommuniction, IAddress
     {
         public SexTypes Sex { get; set; }
         public DateTime BirthDateTime { get; set; }

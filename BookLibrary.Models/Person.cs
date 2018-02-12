@@ -2,7 +2,7 @@
 
 namespace BookLibrary.Models
 {
-    public class Person : BaseEntity
+    public abstract class Person : BaseEntity
     {
         public string FirstName { get; set; }
         public string SecondName { get; set; }
